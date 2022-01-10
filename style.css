@@ -172,6 +172,7 @@ section h3 {
   border-color: #f75b18;
   border-radius: 5px;
   padding: 5px;
+  margin-top: 10px;
 }
 #website1:hover {
   background-color: #f75b18;
@@ -193,8 +194,7 @@ section h3 {
   border-color: #f75b18;
   border-radius: 5px;
   padding: 5px;
-  margin-left: 210px;
-  margin-top: 24px;
+  margin-bottom: 50px;
 }
 
 #website2:hover {
@@ -206,8 +206,7 @@ section h3 {
   border-color: #f75b18;
   border-radius: 5px;
   padding: 5px;
-  margin-left: 210px;
-  margin-top: 24px;
+  margin-bottom: 50px;
 }
 
 #website3 {
@@ -235,7 +234,7 @@ section h3 {
 .animation_og_indhold {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 50px;
 }
 
 .animation_og_indhold #animationsbillede {
@@ -269,7 +268,7 @@ section h3 {
 .portfolio_og_pilot {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 50px;
 }
 
 .portfolio_og_pilot #portfolio_billede {
@@ -495,7 +494,7 @@ footer {
   .animation_og_indhold {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 50px;
   }
 
   .animation_og_indhold #animationsbillede {
@@ -529,7 +528,7 @@ footer {
   .portfolio_og_pilot {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 50px;
   }
 
   .portfolio_og_pilot #portfolio_billede {
