@@ -1,0 +1,894 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#splashbillede_section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(billeder/Splash-eksamen.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 51% 50%;
+}
+
+/* Navigation */
+
+.sidepanel {
+  height: 300px;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #245155;
+  overflow-x: hidden;
+  padding-top: 100px;
+  transition: 0.6s;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #ffff;
+  display: block;
+  transition: 0.3s;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.sidepanel a:hover {
+  color: #f75b18;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  margin-top: 30px;
+}
+
+.openbtn {
+  cursor: pointer;
+  place-self: right;
+  padding: 10px 200px;
+  border: none;
+  background: transparent;
+}
+
+#nav_desktop {
+  display: none;
+}
+
+header {
+  background: #f75b18;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: sticky;
+  top: 0;
+}
+
+#nav_desktop a {
+  color: #ffff;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.6rem;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+}
+
+#nav_desktop a:hover {
+  color: #245155;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+a:hover {
+  color: #245155;
+}
+
+.web {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+  margin-left: 50px;
+  margin: 60px;
+}
+
+#web1 {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.ux {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+  margin-left: 50px;
+  margin: 60px;
+}
+
+#ux_billede {
+  grid-column: 1;
+}
+
+#ux_billede img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2%;
+}
+
+.web img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2%;
+}
+
+section p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  margin-bottom: 50px;
+  padding-right: 20px;
+  margin-right: 20px;
+  color: #121212;
+}
+
+section h2 {
+  font-size: 2.1rem;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #245155;
+}
+
+section h3 {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 30px;
+  font-weight: 100;
+  color: #245155;
+}
+
+#website1 {
+  background-color: transparent;
+  color: #f75b18;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
+}
+#website1:hover {
+  background-color: #f75b18;
+  color: #ffff;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#website2 {
+  background-color: transparent;
+  color: #f75b18;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 210px;
+  margin-top: 24px;
+}
+
+#website2:hover {
+  background-color: #f75b18;
+  color: #ffff;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 210px;
+  margin-top: 24px;
+}
+
+#website3 {
+  background-color: transparent;
+  color: #245155;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #245155;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#website3:hover {
+  background-color: #245155;
+  color: #ffff;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #245155;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.animation_og_indhold {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.animation_og_indhold #animationsbillede {
+  grid-column: 1;
+  grid-row: 3;
+}
+.animation_og_indhold #txt1 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.animation_og_indhold #indholdsbillede {
+  grid-column: 1;
+  grid-row: 1;
+}
+.animation_og_indhold #txt2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.animation_og_indhold img {
+  border-radius: 2%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.animation_og_indhold {
+  margin: 60px;
+}
+
+.portfolio_og_pilot {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.portfolio_og_pilot #portfolio_billede {
+  grid-column: 1;
+  grid-row: 1;
+}
+.portfolio_og_pilot #txt1 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.portfolio_og_pilot #pilot_billede {
+  grid-column: 1;
+  grid-row: 3;
+}
+.portfolio_og_pilot #txt2 {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.portfolio_og_pilot img {
+  border-radius: 2%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio_og_pilot {
+  margin: 60px;
+}
+
+.mig {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin: 30px;
+}
+
+#profil_billede img {
+  border-radius: 2%;
+  max-width: 100%;
+}
+
+.komp {
+  margin: 30px;
+}
+
+#komptxt1 img {
+  border-radius: 2%;
+  max-width: 100%;
+  max-height: auto;
+}
+
+#komptxt2 img {
+  border-radius: 2%;
+  max-width: 100%;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: #f75b18;
+  padding: 20px;
+}
+
+.footer_txt p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: #ffff;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.footer_txt {
+  grid-column: 2;
+  text-align: left;
+}
+
+.footer_billede img {
+  max-width: 75%;
+  border-radius: 100%;
+}
+
+.footer_billede {
+  grid-column: 2;
+  margin-left: 30px;
+}
+/* .footer_ikoner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 10px;
+} */
+
+.footer_ikoner {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img1 {
+  width: 10%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.img2 {
+  width: 10%;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.img3 {
+  width: 10%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+@media (min-width: 600px) {
+  #splashbillede_section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(billeder/Splash-eksamen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 51% 50%;
+  }
+
+  /* Navigation */
+
+  .openbtn {
+    display: none;
+  }
+
+  #nav_desktop {
+    display: flex;
+    margin-left: 30px;
+    place-content: end end;
+  }
+
+  #nav_desktop a {
+    color: #ffff;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    border-radius: 0px;
+    background-color: #f75b18;
+    padding: 0.5rem;
+    top: 0;
+    box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.3);
+    overflow-x: auto;
+    font-family: "Montserrat", sans-serif;
+    position: sticky;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 10px;
+    padding-bottom: 0rem;
+  }
+
+  header nav ul {
+    gap: 120px;
+  }
+
+  .ux {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-left: 50px;
+    margin: 60px;
+  }
+  #ux_billede {
+    grid-column: 2;
+  }
+
+  #ux1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #ux_billede img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 2%;
+  }
+
+  .web {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-right: 50px;
+    margin: 60px;
+  }
+
+  .web img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 2%;
+  }
+
+  #web1 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #web_billede1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .animation_og_indhold {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .animation_og_indhold #animationsbillede {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .animation_og_indhold #txt1 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .animation_og_indhold #indholdsbillede {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .animation_og_indhold #txt2 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .animation_og_indhold img {
+    border-radius: 2%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .animation_og_indhold {
+    margin: 60px;
+  }
+
+  .portfolio_og_pilot {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .portfolio_og_pilot #portfolio_billede {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .portfolio_og_pilot #txt1 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .portfolio_og_pilot #pilot_billede {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .portfolio_og_pilot #txt2 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .portfolio_og_pilot img {
+    border-radius: 2%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .portfolio_og_pilot {
+    margin: 60px;
+  }
+
+  .mig {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 60px;
+  }
+
+  #profil_billede img {
+    border-radius: 2%;
+  }
+
+  #migtxt {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 60px;
+  }
+
+  .komp {
+    display: grid;
+    grid-column: 1fr 1fr;
+    margin: 60px;
+  }
+
+  #komptxt1 {
+    grid-column: 1;
+  }
+
+  #komptxt2 {
+    grid-column: 2;
+    margin-left: 60px;
+  }
+
+  #komptxt2 img {
+    border-radius: 2%;
+    max-width: 100%;
+  }
+
+  #komptxt1 img {
+    border-radius: 2%;
+    max-width: 100%;
+    max-height: auto;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #f75b18;
+    padding: 20px;
+  }
+
+  .footer_txt p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #ffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .footer_txt {
+    grid-column: 2;
+    text-align: left;
+  }
+
+  .footer_billede img {
+    max-width: 30%;
+    border-radius: 100%;
+    margin-left: 270px;
+  }
+
+  .footer_billede {
+    grid-column: 1;
+  }
+
+  .footer_ikoner {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .img1 {
+    width: 4%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .img2 {
+    width: 4%;
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+  .img3 {
+    width: 4%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 1000px) {
+  #splashbillede_section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(billeder/Splash-eksamen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 51% 50%;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    border-radius: 0px;
+    background-color: #f75b18;
+    padding: 0.5rem;
+    top: 0;
+    box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.3);
+    overflow-x: auto;
+    font-family: "Montserrat", sans-serif;
+    position: sticky;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 10px;
+    padding-bottom: 0rem;
+  }
+
+  header nav ul {
+    gap: 120px;
+  }
+
+  .ux {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-left: 50px;
+    margin: 60px;
+  }
+  #ux_billede {
+    grid-column: 2;
+  }
+
+  #ux1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #ux_billede img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+  }
+
+  .web {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-right: 50px;
+    margin: 60px;
+  }
+
+  .web img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+  }
+
+  #web1 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #web_billede1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .animation_og_indhold {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .animation_og_indhold #animationsbillede {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .animation_og_indhold #txt1 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .animation_og_indhold #indholdsbillede {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .animation_og_indhold #txt2 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .animation_og_indhold img {
+    border-radius: 2%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .animation_og_indhold {
+    margin: 60px;
+  }
+
+  .portfolio_og_pilot {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .portfolio_og_pilot #portfolio_billede {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .portfolio_og_pilot #txt1 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .portfolio_og_pilot #pilot_billede {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .portfolio_og_pilot #txt2 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .portfolio_og_pilot img {
+    border-radius: 2%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .portfolio_og_pilot {
+    margin: 60px;
+  }
+
+  .mig {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    margin: 100px;
+    margin-left: 150px;
+  }
+
+  #profil_billede img {
+    border-radius: 2%;
+  }
+
+  .komp {
+    margin: 146px;
+  }
+
+  #komptxt2 {
+    margin-left: 150px;
+  }
+
+  #komptxt2 img {
+    border-radius: 2%;
+    max-width: 103%;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #f75b18;
+    padding: 20px;
+  }
+
+  .footer_txt p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #ffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .footer_txt {
+    grid-column: 2;
+    text-align: left;
+  }
+
+  .footer_billede img {
+    max-width: 25%;
+    border-radius: 100%;
+    margin-left: 460px;
+  }
+
+  .footer_billede {
+    grid-column: 1;
+  }
+
+  .footer_ikoner {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .img1 {
+    width: 4%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .img2 {
+    width: 4%;
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+  .img3 {
+    width: 4%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+}

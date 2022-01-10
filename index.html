@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="logo/portfolio_logo.svg" />
+    <link rel="icon" type="image/png" href="logo/portfolio_logo.png" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          ><img src="UI_elementer/luk_knap.svg" alt=""
+        /></a>
+        <a href="index.html">Forside</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="om_mig.html">Om mig</a>
+      </div>
+      <button class="openbtn" onclick="openNav()">
+        <img src="UI_elementer/menu_knap.svg" alt="menu_knap" />
+      </button>
+
+      <nav id="nav_desktop">
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="om_mig.html">Om mig</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="splashbillede_section"></section>
+    <footer class="footer">
+      <div class="footer_billede">
+        <img src="billeder/profilbillede2.jpg" alt="profil billede" />
+      </div>
+      <div class="footer_txt">
+        <p>Oliver Oscar Thelin 21 år</p>
+        <p>Multimediedesigner</p>
+        <div class="footer_ikoner">
+          <div class="img1">
+            <a href="https://www.facebook.com/oliver.thelin.9/"
+              ><img src="icon_billeder/FB_icon.svg" alt="FB"
+            /></a>
+          </div>
+          <div class="img2">
+            <a href="https://www.instagram.com/oliver.thelin1/"
+              ><img src="icon_billeder/IG_icon.svg" alt="IG"
+            /></a>
+          </div>
+          <div class="img3">
+            <a href="mailto:oliv578v@stud.kea.dk"
+              ><img src="icon_billeder/mail_icon.svg" alt="Mail"
+            /></a>
+          </div>
+        </div>
+        <button id="website3" onclick="window.location.href='om_mig.html';">
+          Læs mere her
+        </button>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

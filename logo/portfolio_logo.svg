@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="260" height="260" viewBox="0 0 260 260">
+  <defs>
+    <clipPath id="clip-Logo">
+      <rect width="260" height="260"/>
+    </clipPath>
+  </defs>
+  <g id="Logo" clip-path="url(#clip-Logo)">
+    <rect width="260" height="260" fill="#f75b18"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(0 -1.004)">
+      <g id="Group_2" data-name="Group 2" transform="translate(0 -138)">
+        <g id="Group_1" data-name="Group 1">
+          <g id="Path_1" data-name="Path 1" transform="translate(390 268.335) rotate(135)" fill="#245155">
+            <path d="M 0.9720898866653442 183.5827178955078 L 184.0843048095703 0.470548003911972 L 366.7265319824219 183.1127319335938 L 0.9720898866653442 183.5827178955078 Z" stroke="none"/>
+            <path d="M 184.0843048095703 1.177642822265625 L 2.18072509765625 183.0811614990234 L 365.52099609375 182.6142883300781 L 184.0843048095703 1.177642822265625 M 184.0843048095703 -0.236541748046875 L 367.9320678710938 183.6111907958984 L -0.236541748046875 184.0842742919922 L 184.0843048095703 -0.236541748046875 Z" stroke="none" fill="#707070"/>
+          </g>
+          <text id="_P" data-name="
+P" transform="translate(40 156.004)" fill="#707070" font-size="173" font-family="AmericanTypewriter, American Typewriter"><tspan x="0" y="0"></tspan><tspan fill="#fff"><tspan x="0" y="199">P</tspan></tspan></text>
+          <text id="F" transform="translate(106 305.004)" fill="#fff" font-size="184" font-family="AmericanTypewriter, American Typewriter"><tspan x="0" y="0">F</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
