@@ -176,7 +176,7 @@ section h3 {
 }
 /*Overskrifter slut*/
 
-/* Knapper */
+/* per */
 #website1 {
   background-color: transparent;
   color: #f75b18;
@@ -387,11 +387,11 @@ section h3 {
 
 #website11 {
   background-color: transparent;
-  color: #245155;
+  color: #f75b18;
   font-family: "Monserrat, sans-serif";
   font-weight: 500;
   font-size: 25px;
-  border-color: #245155;
+  border-color: #f75b18;
   border-radius: 5px;
   padding: 5px;
   margin-left: 36%;
@@ -399,12 +399,12 @@ section h3 {
   margin-top: 10px;
 }
 #website11:hover {
-  background-color: #245155;
+  background-color: #f75b18;
   color: #ffff;
   font-family: "Monserrat, sans-serif";
   font-weight: 500;
   font-size: 25px;
-  border-color: #245155;
+  border-color: #f75b18;
   border-radius: 5px;
   margin-left: 36%;
   margin-bottom: 3%;
@@ -439,22 +439,22 @@ section h3 {
 
 #website3 {
   background-color: transparent;
-  color: #245155;
+  color: #ffff;
   font-family: "Monserrat, sans-serif";
   font-weight: 500;
   font-size: 25px;
-  border-color: #245155;
+  border-color: #ffff;
   border-radius: 5px;
   padding: 5px;
 }
 
 #website3:hover {
-  background-color: #245155;
-  color: #ffff;
+  background-color: #ffff;
+  color: #f75b18;
   font-family: "Monserrat, sans-serif";
   font-weight: 500;
   font-size: 25px;
-  border-color: #245155;
+  border-color: #ffff;
   border-radius: 5px;
   padding: 5px;
 }
@@ -716,11 +716,11 @@ footer {
   }
   #website11 {
     background-color: transparent;
-    color: #245155;
+    color: #f75b18;
     font-family: "Monserrat, sans-serif";
     font-weight: 500;
     font-size: 25px;
-    border-color: #245155;
+    border-color: #f75b18;
     border-radius: 5px;
     padding: 5px;
     margin-left: 45%;
@@ -728,12 +728,12 @@ footer {
     margin-top: 10px;
   }
   #website11:hover {
-    background-color: #245155;
+    background-color: #f75b18;
     color: #ffff;
     font-family: "Monserrat, sans-serif";
     font-weight: 500;
     font-size: 25px;
-    border-color: #245155;
+    border-color: #f75b18;
     border-radius: 5px;
     margin-left: 45%;
     margin-bottom: 3%;
