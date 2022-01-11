@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+/* Mobile first: */
+/* Splashbillede på forsiden */
+
 #splashbillede_section {
   width: 100%;
   height: 100vh;
@@ -96,6 +99,10 @@ a:hover {
   color: #245155;
 }
 
+/* Navigation slut */
+
+
+/* Grundlæggende web */
 .web {
   display: grid;
   grid-template-columns: 1fr;
@@ -108,6 +115,10 @@ a:hover {
   grid-row: 2;
   grid-column: 1;
 }
+
+/* Grundlæggende web slut */
+
+/* UX: */
 
 .ux {
   display: grid;
@@ -128,6 +139,8 @@ a:hover {
   border-radius: 2%;
 }
 
+/* UX slut */
+
 .web img {
   width: 100%;
   height: 100%;
@@ -135,6 +148,7 @@ a:hover {
   border-radius: 2%;
 }
 
+/* Overskrifter, h1,h2 og brødtekst: */
 section p {
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
@@ -162,7 +176,10 @@ section h3 {
   font-weight: 100;
   color: #245155;
 }
+/*Overskrifter slut*/
 
+
+/* Knapper */
 #website1 {
   background-color: transparent;
   color: #f75b18;
@@ -231,6 +248,9 @@ section h3 {
   padding: 5px;
 }
 
+/* Knapper slut*/
+
+/* Animation og indhold's sektion*/
 .animation_og_indhold {
   display: grid;
   grid-template-columns: 1fr;
@@ -265,6 +285,10 @@ section h3 {
   margin: 60px;
 }
 
+/* Animation og Indhold slut */
+
+
+/* Portfolio og Pilot projekt  */
 .portfolio_og_pilot {
   display: grid;
   grid-template-columns: 1fr;
@@ -299,6 +323,9 @@ section h3 {
   margin: 60px;
 }
 
+/* Portfolio og Pilot projekt slut*/
+
+/* Om mig sektionen */
 .mig {
   display: grid;
   grid-template-columns: 1fr;
@@ -326,6 +353,10 @@ section h3 {
   max-width: 100%;
 }
 
+/* Om mig sektion slut*/
+
+
+/* Footer start*/
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -357,12 +388,6 @@ footer {
   grid-column: 2;
   margin-left: 30px;
 }
-/* .footer_ikoner {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  margin-bottom: 10px;
-} */
 
 .footer_ikoner {
   margin-top: 10px;
@@ -387,6 +412,9 @@ footer {
   margin-right: 10px;
 }
 
+/* Footer slut*/
+
+/* ipad version */
 @media (min-width: 600px) {
   #splashbillede_section {
     width: 100%;
@@ -443,6 +471,9 @@ footer {
     gap: 120px;
   }
 
+  /* Navigation slut*/
+
+  /* UX grid */
   .ux {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -466,6 +497,9 @@ footer {
     border-radius: 2%;
   }
 
+  /* UX slut*/
+   
+  /*web grid*/
   .web {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -491,6 +525,9 @@ footer {
     grid-row: 1;
   }
 
+  /* Web slut*/
+
+  /* Animation og indhold grid*/
   .animation_og_indhold {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -525,6 +562,9 @@ footer {
     margin: 60px;
   }
 
+  /* Animation og indhold slut*/
+
+  /*Portfolio og pilot projekt start*/
   .portfolio_og_pilot {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -558,6 +598,10 @@ footer {
   .portfolio_og_pilot {
     margin: 60px;
   }
+
+  /* Portfolio og pilot projekt slut*/
+
+  /* Om mig start*/
 
   .mig {
     display: grid;
@@ -602,6 +646,9 @@ footer {
     max-height: auto;
   }
 
+  /* Om mig slut*/
+
+  /* Footer start*/
   footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -656,8 +703,10 @@ footer {
     display: inline-block;
     margin-right: 10px;
   }
+  /* footer slut*/
 }
 
+/* Web version*/
 @media (min-width: 1000px) {
   #splashbillede_section {
     width: 100%;
@@ -668,6 +717,7 @@ footer {
     background-position: 51% 50%;
   }
 
+  /*Navigation start*/
   header {
     display: flex;
     justify-content: space-evenly;
@@ -694,6 +744,9 @@ footer {
     gap: 120px;
   }
 
+  /*Navigation slut*/
+
+  /* UX start */
   .ux {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -717,6 +770,9 @@ footer {
     border-radius: 2%;
   }
 
+  /* UX slut */
+
+  /* Web start */
   .web {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -741,6 +797,10 @@ footer {
     grid-column: 1;
     grid-row: 1;
   }
+
+  /* Web slut */
+
+  /* Animation og indhold start */
 
   .animation_og_indhold {
     display: grid;
@@ -775,7 +835,9 @@ footer {
   .animation_og_indhold {
     margin: 60px;
   }
+  /* Animation og indhold slut */
 
+  /* Portfolio og pilot projekt start */
   .portfolio_og_pilot {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -810,6 +872,9 @@ footer {
     margin: 60px;
   }
 
+  /* Portfolio og pilot projekt slut */
+
+  /* Om mig start */
   .mig {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -835,7 +900,9 @@ footer {
     border-radius: 2%;
     max-width: 103%;
   }
+  /* Om mig slut */
 
+  /* Footer start */
   footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -890,4 +957,5 @@ footer {
     display: inline-block;
     margin-right: 10px;
   }
+  /* Footer slut */
 }
