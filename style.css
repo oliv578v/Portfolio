@@ -561,6 +561,11 @@ section h3 {
   border-radius: 2%;
   margin-bottom: 15px;
 }
+
+.overskrift h2 {
+  text-align: center;
+  margin-top: 20px;
+}
 /* Portfolio process slut*/
 
 /* Footer start*/
