@@ -36,7 +36,7 @@
   text-decoration: none;
   color: #ffff;
   display: block;
-  transition: 0.3s;
+  transition: 0.2s;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -55,7 +55,6 @@
 
 .openbtn {
   cursor: pointer;
-  place-self: right;
   padding: 10px 200px;
   border: none;
   background: transparent;
@@ -100,7 +99,6 @@ a:hover {
 }
 
 /* Navigation slut */
-
 
 /* Grundlæggende web */
 .web {
@@ -178,7 +176,6 @@ section h3 {
 }
 /*Overskrifter slut*/
 
-
 /* Knapper */
 #website1 {
   background-color: transparent;
@@ -192,6 +189,72 @@ section h3 {
   margin-top: 10px;
 }
 #website1:hover {
+  background-color: #f75b18;
+  color: #ffff;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#website4 {
+  background-color: transparent;
+  color: #f75b18;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+#website4:hover {
+  background-color: #f75b18;
+  color: #ffff;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#website5 {
+  background-color: transparent;
+  color: #f75b18;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+#website5:hover {
+  background-color: #f75b18;
+  color: #ffff;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#website6 {
+  background-color: transparent;
+  color: #f75b18;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+#website6:hover {
   background-color: #f75b18;
   color: #ffff;
   font-family: "Monserrat, sans-serif";
@@ -224,6 +287,76 @@ section h3 {
   border-radius: 5px;
   padding: 5px;
   margin-bottom: 50px;
+}
+
+#website7 {
+  background-color: transparent;
+  color: #f75b18;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+#website7:hover {
+  background-color: #f75b18;
+  color: #ffff;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+#website8 {
+  background-color: transparent;
+  color: #f75b18;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+#website8:hover {
+  background-color: #f75b18;
+  color: #ffff;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+#website9 {
+  background-color: transparent;
+  color: #f75b18;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+#website9:hover {
+  background-color: #f75b18;
+  color: #ffff;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #f75b18;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 #website3 {
@@ -287,7 +420,6 @@ section h3 {
 
 /* Animation og Indhold slut */
 
-
 /* Portfolio og Pilot projekt  */
 .portfolio_og_pilot {
   display: grid;
@@ -308,7 +440,7 @@ section h3 {
   grid-column: 1;
   grid-row: 3;
 }
-.portfolio_og_pilot #txt2 {
+.portfolio_og_pilot #txt3 {
   grid-column: 1;
   grid-row: 4;
 }
@@ -345,7 +477,6 @@ section h3 {
 #komptxt1 img {
   border-radius: 2%;
   max-width: 100%;
-  max-height: auto;
 }
 
 #komptxt2 img {
@@ -355,6 +486,56 @@ section h3 {
 
 /* Om mig sektion slut*/
 
+/* Portfolio process start*/
+
+.moodboard {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 30px;
+}
+
+.moodboard img {
+  max-width: 100%;
+  border-radius: 2%;
+  margin-bottom: 15px;
+}
+
+.styletile {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 30px;
+}
+
+.styletile img {
+  max-width: 100%;
+  border-radius: 2%;
+  margin-bottom: 15px;
+}
+
+.logo_og_wireframe {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 30px;
+}
+
+.logo_og_wireframe img {
+  max-width: 100%;
+  border-radius: 2%;
+  margin-bottom: 15px;
+}
+
+.kode {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 30px;
+}
+
+.kode img {
+  max-width: 100%;
+  border-radius: 2%;
+  margin-bottom: 15px;
+}
+/* Portfolio process slut*/
 
 /* Footer start*/
 footer {
@@ -498,7 +679,7 @@ footer {
   }
 
   /* UX slut*/
-   
+
   /*web grid*/
   .web {
     display: grid;
@@ -584,7 +765,7 @@ footer {
     grid-column: 2;
     grid-row: 1;
   }
-  .portfolio_og_pilot #txt2 {
+  .portfolio_og_pilot #txt3 {
     grid-column: 2;
     grid-row: 2;
   }
@@ -622,7 +803,6 @@ footer {
 
   .komp {
     display: grid;
-    grid-column: 1fr 1fr;
     margin: 60px;
   }
 
@@ -643,7 +823,6 @@ footer {
   #komptxt1 img {
     border-radius: 2%;
     max-width: 100%;
-    max-height: auto;
   }
 
   /* Om mig slut*/
@@ -857,7 +1036,7 @@ footer {
     grid-column: 2;
     grid-row: 1;
   }
-  .portfolio_og_pilot #txt2 {
+  .portfolio_og_pilot #txt3 {
     grid-column: 2;
     grid-row: 2;
   }
@@ -901,6 +1080,107 @@ footer {
     max-width: 103%;
   }
   /* Om mig slut */
+
+  /* Portfolio process start*/
+
+  .moodboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-right: 50px;
+    margin: 60px;
+  }
+
+  .moodboard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+  }
+
+  #moodboard_billede {
+    grid-column: 1;
+  }
+
+  .styletile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 60px;
+    gap: 50px;
+  }
+
+  .styletile img {
+    max-width: 100%;
+    border-radius: 2%;
+    margin-bottom: 15px;
+  }
+
+  #styletile_billede {
+    grid-column: 2;
+  }
+
+  #styletile_txt {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .logo_og_wireframe {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 60px;
+    gap: 50px;
+  }
+
+  #logo_billede {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #wireframe_mobil {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #wireframe_web {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  #logo_txt {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #mobil_txt {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .logo_og_wireframe img {
+    max-width: 100%;
+    border-radius: 2%;
+    margin-bottom: 15px;
+  }
+
+  .kode {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 60px;
+    gap: 50px;
+  }
+
+  .kode img {
+    max-width: 100%;
+    border-radius: 2%;
+    margin-bottom: 15px;
+  }
+
+  #layout_billede img {
+    max-width: 50%;
+  }
+
+  /* Portfolio process slut*/
 
   /* Footer start */
   footer {
