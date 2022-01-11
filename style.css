@@ -359,6 +359,32 @@ section h3 {
   padding: 5px;
 }
 
+#website10 {
+  background-color: transparent;
+  color: #245155;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #245155;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 36%;
+  margin-bottom: 3%;
+  margin-top: 10px;
+}
+#website10:hover {
+  background-color: #245155;
+  color: #ffff;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #245155;
+  border-radius: 5px;
+  margin-left: 36%;
+  margin-bottom: 3%;
+  padding: 5px;
+}
+
 #website3 {
   background-color: transparent;
   color: #245155;
@@ -605,6 +631,32 @@ footer {
     background-repeat: no-repeat;
     background-position: 51% 50%;
   }
+  /* til toppen knap*/
+  #website10 {
+    background-color: transparent;
+    color: #245155;
+    font-family: "Monserrat, sans-serif";
+    font-weight: 500;
+    font-size: 25px;
+    border-color: #245155;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 45%;
+    margin-bottom: 3%;
+    margin-top: 10px;
+  }
+  #website10:hover {
+    background-color: #245155;
+    color: #ffff;
+    font-family: "Monserrat, sans-serif";
+    font-weight: 500;
+    font-size: 25px;
+    border-color: #245155;
+    border-radius: 5px;
+    margin-left: 45%;
+    margin-bottom: 3%;
+    padding: 5px;
+  }
 
   /* Navigation */
 
@@ -826,6 +878,106 @@ footer {
   }
 
   /* Om mig slut*/
+
+  /* Portfolio process start*/
+
+  .moodboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-right: 50px;
+    margin: 60px;
+  }
+
+  .moodboard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+  }
+
+  #moodboard_billede {
+    grid-column: 1;
+  }
+
+  .styletile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 60px;
+    gap: 50px;
+  }
+
+  .styletile img {
+    max-width: 100%;
+    border-radius: 2%;
+    margin-bottom: 15px;
+  }
+
+  #styletile_billede {
+    grid-column: 2;
+  }
+
+  #styletile_txt {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .logo_og_wireframe {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 60px;
+    gap: 50px;
+  }
+
+  #logo_billede {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #wireframe_mobil {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #wireframe_web {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  #logo_txt {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #mobil_txt {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .logo_og_wireframe img {
+    max-width: 100%;
+    border-radius: 2%;
+  }
+
+  .kode {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 60px;
+    gap: 50px;
+  }
+
+  .kode img {
+    max-width: 100%;
+    border-radius: 2%;
+    margin-bottom: 15px;
+  }
+
+  #layout_billede img {
+    max-width: 75%;
+  }
+
+  /* Portfolio process slut*/
 
   /* Footer start*/
   footer {
