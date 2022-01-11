@@ -385,6 +385,58 @@ section h3 {
   padding: 5px;
 }
 
+#website11 {
+  background-color: transparent;
+  color: #245155;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #245155;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 36%;
+  margin-bottom: 3%;
+  margin-top: 10px;
+}
+#website11:hover {
+  background-color: #245155;
+  color: #ffff;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #245155;
+  border-radius: 5px;
+  margin-left: 36%;
+  margin-bottom: 3%;
+  padding: 5px;
+}
+
+#website12 {
+  background-color: transparent;
+  color: #245155;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #245155;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 36%;
+  margin-bottom: 3%;
+  margin-top: 10px;
+}
+#website12:hover {
+  background-color: #245155;
+  color: #ffff;
+  font-family: "Monserrat, sans-serif";
+  font-weight: 500;
+  font-size: 25px;
+  border-color: #245155;
+  border-radius: 5px;
+  margin-left: 36%;
+  margin-bottom: 3%;
+  padding: 5px;
+}
+
 #website3 {
   background-color: transparent;
   color: #245155;
@@ -636,7 +688,7 @@ footer {
     background-repeat: no-repeat;
     background-position: 51% 50%;
   }
-  /* til toppen knap*/
+  /* til toppen knapper web*/
   #website10 {
     background-color: transparent;
     color: #245155;
@@ -662,8 +714,59 @@ footer {
     margin-bottom: 3%;
     padding: 5px;
   }
+  #website11 {
+    background-color: transparent;
+    color: #245155;
+    font-family: "Monserrat, sans-serif";
+    font-weight: 500;
+    font-size: 25px;
+    border-color: #245155;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 45%;
+    margin-bottom: 3%;
+    margin-top: 10px;
+  }
+  #website11:hover {
+    background-color: #245155;
+    color: #ffff;
+    font-family: "Monserrat, sans-serif";
+    font-weight: 500;
+    font-size: 25px;
+    border-color: #245155;
+    border-radius: 5px;
+    margin-left: 45%;
+    margin-bottom: 3%;
+    padding: 5px;
+  }
 
-  /* til toppen knap slut*/
+  #website12 {
+    background-color: transparent;
+    color: #245155;
+    font-family: "Monserrat, sans-serif";
+    font-weight: 500;
+    font-size: 25px;
+    border-color: #245155;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 45%;
+    margin-bottom: 3%;
+    margin-top: 10px;
+  }
+  #website12:hover {
+    background-color: #245155;
+    color: #ffff;
+    font-family: "Monserrat, sans-serif";
+    font-weight: 500;
+    font-size: 25px;
+    border-color: #245155;
+    border-radius: 5px;
+    margin-left: 45%;
+    margin-bottom: 3%;
+    padding: 5px;
+  }
+
+  /* til toppen knapper web slut*/
 
   /* Navigation */
 
